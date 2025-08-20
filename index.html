@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AeroStreet - Your Destiny!</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+
+<body id="top">
+    <header class="header">
+      <div class="container">
+        <div class="overlay"></div>
+
+        <a class="logo">
+          <img
+            src="https://th.bing.com/th/id/OIP.vIy5lMvGoeobbRkbrxDBngAAAA?w=122&h=51&rs=1&pid=ImgDetMain"
+            height="50px"
+            alt="Aero logo"
+          />
+        </a>
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#top" class="navbar-link">Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#footer" class="navbar-link">About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#special" class="navbar-link">Products</a>
+            </li>
+          </ul>
+
+          <ul class="nav-action-list">
+            <li>
+              <button class="nav-action-btn">
+                <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                <p>Search</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="nav-action-btn" id="signUpBtn">
+                <ion-icon name="person-add-outline"></ion-icon>
+                  <p>Sign Up</p>
+              </button>
+            </li>
+
+            <li>
+              <button class="nav-action-btn" id="profileBtn">
+                <ion-icon name="person-circle-outline"></ion-icon>
+                  <p>Account</p>
+              </button>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section
+          class="section hero"
+          style="background-image: url('./assets/images/hero-banner.png')"
+        >
+          <div class="container">
+            <h2 class="h1 hero-title">
+              Step Up Your Style!<strong>Sneakers Fashion <br>by AeroStreet</strong>
+            </h2>
+
+            <p class="hero-text">
+              <strong>Now Everyone Can Buy Good Sneakers!</strong> Di AeroStreet, sepatu modern dan stylish kami bikin kamu makin fashionable dan trendy! Aerostreet adalah toko online yang menyediakan berbagai produk sepatu berkualitas tinggi dengan harga terjangkau. Promo menarik, gratis ongkir, dan produk 100% original!
+            </p>
+
+              <button class="btn btn-primary" onclick="window.location.href='profile.html';">
+                <span>Shop Now</span>
+                <ion-icon
+                name="arrow-forward-outline"
+                aria-hidden="true"
+              ></ion-icon>
+              </button>
+
+          </div>
+        </section>
+
+        <section class="section collection" id="collection">
+          <div class="container">
+            <ul class="collection-list has-scrollbar">
+              <li>
+                <div
+                  class="collection-card"
+                  style="
+                    background-image: url('https://images.tokopedia.net/img/cache/700/VqbcmM/2023/8/21/1f12308a-2c9b-4b0a-9b58-0e166cffe54b.jpg');
+                  "
+                >
+                  <h3 class="h4 card-title">Vulcanized</h3>
+
+                  <a href="#" class="btn btn-secondary">
+                    <span>Explore All</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="collection-card"
+                  style="
+                    background-image: url('https://images.tokopedia.net/img/cache/900/VqbcmM/2023/8/21/6709c03f-e5d1-471e-9a58-30545392db2a.jpg');
+                  "
+                >
+                  <h3 class="h4 card-title">Snowfall</h3>
+
+                  <a href="#" class="btn btn-secondary">
+                    <span>Explore All</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div
+                  class="collection-card"
+                  style="
+                    background-image: url('https://images.tokopedia.net/img/cache/900/VqbcmM/2023/8/22/2c9b4da4-e77c-46d1-ad60-7c815fd85fe3.jpg');
+                  "
+                >
+                  <h3 class="h4 card-title">Dunk Sports</h3>
+
+                  <a href="#" class="btn btn-secondary">
+                    <span>Explore All</span>
+
+                    <ion-icon
+                      name="arrow-forward-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section product">
+          <div class="container">
+            <h2 class="h2 section-title">Limited Edition - AeroStreet x Dragon Ball</h2>
+            <ul class="product-list">
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/12/21/c7e4a130-7a98-43aa-9015-8299a2a5132c.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="Goku"
+                      class="image-contain"
+                    />
+
+                    <div class="card-badge">Limited</div>
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Goku's Gravity Cruiser</a>
+                    </h3>
+
+                    <data class="card-price" value="300.000">Rp.300.000,-</data>
+                  </div>
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/12/21/06bc605e-414d-4b97-9611-f19b6c824cc2.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="Gohan"
+                      class="image-contain"
+                    />
+
+                    <div class="card-badge">Limited</div>
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Gohan's Guardian</a>
+                    </h3>
+
+                    <data class="card-price" value="300.000">Rp.300.000,-</data>
+                  </div>
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/12/21/0cdef0f5-a2bc-42f4-b5cf-da42f3dad31b.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="Vegeta"
+                      class="image-contain"
+                    />
+
+                    <div class="card-badge">Limited</div>
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Vegeta's Vortex</a>
+                    </h3>
+
+                    <data class="card-price" value="300.000">Rp.300.000,-</data>
+                  </div>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/12/21/c50d81c5-903c-4986-9c93-e604b0c3a431.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="Trunks"
+                      class="image-contain"
+                    />
+
+                    <div class="card-badge">Limited</div>
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Trunks Force</a>
+                    </h3>
+
+                    <data class="card-price" value="300.000">Rp.300.000,-</data>
+                  </div>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/12/21/8919b303-6dc7-4c8b-9fa2-ae62743d7825.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="Cell"
+                      class="image-contain"
+                    />
+
+                    <div class="card-badge">Limited</div>
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Cell's Circuit</a>
+                    </h3>
+
+                    <data class="card-price" value="300.000">Rp.300.000,-</data>
+                  </div>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/12/21/ddee3b62-f09f-4077-83d0-cc0f9d7aca0a.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="Frieza"
+                      class="image-contain"
+                    />
+
+                    <div class="card-badge">Limited</div>
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Frieza's Valor</a>
+                    </h3>
+
+                    <data class="card-price" value="300.000">Rp.300.000,-</data>
+                  </div>
+                </div>
+              </li>
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/12/21/ce8592c0-59e5-4de3-88e4-27d56cda1ab7.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="Buu"
+                      class="image-contain"
+                    />
+
+                    <div class="card-badge">Limited</div>
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Buu's Bounce</a>
+                    </h3>
+
+                    <data class="card-price" value="300.000">Rp.300.000,-</data>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        
+        <section class="section product">
+          <div class="container">
+            <h2 class="h2 section-title">Special Edition - AeroStreet x Looney Tones</h2>
+              <ul class="product-list">
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/23/7c2b91c9-1412-45e6-a148-99188231bb54.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="bugs"
+                      class="image-contain"
+                    />
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Bugs Bunny</a>
+                    </h3>
+
+                    <data class="card-price" value="250.000">Rp.250.000,-</data>
+                  </div>
+                </div>
+              </li>
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/23/e72b0332-48cb-4322-8323-5bab94e0c8a2.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="lola"
+                      class="image-contain"
+                    />
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Lola Bunny</a>
+                    </h3>
+
+                    <data class="card-price" value="250.000">Rp.250.000,-</data>
+                  </div>
+                </div>
+              </li>  
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/23/d20f6122-5add-4d16-8ae6-6396ab8b5fea.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="tasmania"
+                      class="image-contain"
+                    />
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Tasmania Devil</a>
+                    </h3>
+
+                    <data class="card-price" value="250.000">Rp.250.000,-</data>
+                  </div>
+                </div>
+              </li>    
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/23/68592cf0-c702-4b7a-88f8-eba9d2708047.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="road"
+                      class="image-contain"
+                    />
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Road Runner</a>
+                    </h3>
+
+                    <data class="card-price" value="250.000">Rp.250.000,-</data>
+                  </div>
+                </div>
+              </li>   
+
+              <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/23/635531e3-3129-486f-aba6-7087953f9171.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="sylvester"
+                      class="image-contain"
+                    />
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Sylvester</a>
+                    </h3>
+
+                    <data class="card-price" value="250.000">Rp.250.000,-</data>
+                  </div>
+                </div>
+              </li>  
+              
+                <li class="product-item">
+                <div class="product-card" tabindex="0">
+                  <figure class="card-banner">
+                    <img
+                      src="https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/23/97f65c54-0dbc-4f06-807a-a5ab843a7d3b.jpg"
+                      width="312"
+                      height="350"
+                      loading="lazy"
+                      alt="daffy"
+                      class="image-contain"
+                    />
+
+                    
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-cat">
+                      <a href="#" class="card-cat-link">Men</a> /
+                      <a href="#" class="card-cat-link">Women</a>
+                    </div>
+
+                    <h3 class="h3 card-title">
+                      <a href="#">Daffy Duck</a>
+                    </h3>
+
+                    <data class="card-price" value="250.000">Rp.250.000,-</data>
+                  </div>
+                </div>
+              </li> 
+
+            </ul>
+          </div>
+        </section>
+
+        <section class="section special" id="special">
+          <div class="container">
+            <div
+              class="special-banner"
+              style="
+                background-image: url('https://images.tokopedia.net/img/cache/700/VqbcmM/2023/8/21/1f12308a-2c9b-4b0a-9b58-0e166cffe54b.jpg');
+              "
+            >
+              <h2 class="h3 banner-title">Vulcanized Edition</h2>
+
+              <a href="#" class="btn btn-link">
+                <span>Explore All</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+
+            <div class="special-product">
+              <h2 class="h2 section-title">
+                <span class="text">AeroStreet Vulcanized</span>
+
+                <span class="line"></span>
+              </h2>
+
+              <ul class="has-scrollbar">
+                <li class="product-item">
+                  <div class="product-card" tabindex="0">
+                    <figure class="card-banner">
+                      <img
+                        src="https://images.tokopedia.net/img/cache/900/VqbcmM/2022/7/4/e14aeb66-9c32-44e3-9006-540dd0c39641.jpg"
+                        width="312"
+                        height="350"
+                        loading="lazy"
+                        alt="Hoops Low"
+                        class="image-contain"
+                      />
+
+                      <div class="card-badge">New</div>
+
+                      
+                    </figure>
+
+                    <div class="card-content">
+                      <div class="card-cat">
+                        <a href="#" class="card-cat-link">Men</a> /
+                        <a href="#" class="card-cat-link">Women</a>
+                      </div>
+
+                      <h3 class="h3 card-title">
+                        <a href="#">2D HoopsLow</a>
+                      </h3>
+
+                      <data class="card-price" value="200.000">Rp.200.000,-</data>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="product-item">
+                  <div class="product-card" tabindex="0">
+                    <figure class="card-banner">
+                      <img
+                        src="https://images.tokopedia.net/img/cache/900/VqbcmM/2022/8/16/e7e107cc-ca90-4fd6-900e-2c8320f232fc.jpg"
+                        width="312"
+                        height="350"
+                        loading="lazy"
+                        alt="2D CitrusGrove"
+                        class="image-contain"
+                      />
+
+                      
+                    </figure>
+
+                    <div class="card-content">
+                      <div class="card-cat">
+                        <a href="#" class="card-cat-link">Men</a> /
+                        <a href="#" class="card-cat-link">Sports</a>
+                      </div>
+
+                      <h3 class="h3 card-title">
+                        <a href="#">2D CitrusGrove</a>
+                      </h3>
+
+                      <data class="card-price" value="190.000">Rp.190.000,-</data>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="product-item">
+                  <div class="product-card" tabindex="0">
+                    <figure class="card-banner">
+                      <img
+                        src="https://images.tokopedia.net/img/cache/900/VqbcmM/2022/5/20/bda957da-ab84-4034-990b-8f5920484054.jpg"
+                        width="312"
+                        height="350"
+                        loading="lazy"
+                        alt="Rainbow Radiance"
+                        class="image-contain"
+                      />
+
+                      <div class="card-badge">New</div>
+
+                      
+                    </figure>
+
+                    <div class="card-content">
+                      <div class="card-cat">
+                        <a href="#" class="card-cat-link">Men</a> /
+                        <a href="#" class="card-cat-link">Women</a>
+                      </div>
+
+                      <h3 class="h3 card-title">
+                        <a href="#">2D RainbowRadiance</a>
+                      </h3>
+
+                      <data class="card-price" value="180.000">Rp.180.000,-</data>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="product-item">
+                  <div class="product-card" tabindex="0">
+                    <figure class="card-banner">
+                      <img
+                        src="https://images.tokopedia.net/img/cache/900/VqbcmM/2022/7/23/b9acc7a4-d808-40fd-aec0-719d0eeb7930.jpg"
+                        width="312"
+                        height="350"
+                        loading="lazy"
+                        alt="2D Skyline Surge"
+                        class="image-contain"
+                      />
+
+                      <div class="card-badge">-25%</div>
+
+                      
+                    </figure>
+
+                    <div class="card-content">
+                      <div class="card-cat">
+                        <a href="#" class="card-cat-link">Men</a> /
+                        <a href="#" class="card-cat-link">Sports</a>
+                      </div>
+
+                      <h3 class="h3 card-title">
+                        <a href="#">2D SkylineSurge</a>
+                      </h3>
+
+                      <data class="card-price" value="175.000"
+                        >Rp.150.000,- <del>Rp.200.000,-</del></data
+                      >
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section special">
+          <div class="container">
+            <div
+              class="special-banner"
+              style="
+                background-image: url('https://images.tokopedia.net/img/cache/900/VqbcmM/2023/8/21/6709c03f-e5d1-471e-9a58-30545392db2a.jpg');
+              "
+            >
+              <h2 class="h3 banner-title">Snowfall Edition</h2>
+
+              <a href="#" class="btn btn-link">
+                <span>Explore All</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+
+            <div class="special-product">
+              <h2 class="h2 section-title">
+                <span class="text">AeroStreet Snowfall</span>
+
+                <span class="line"></span>
+              </h2>
+
+              <ul class="has-scrollbar">
+                <li class="product-item">
+                  <div class="product-card" tabindex="0">
+                    <figure class="card-banner">
+                      <img
+                        src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/8/23/5298c363-6fed-410e-a564-99a1272e3ebb.jpg"
+                        width="312"
+                        height="350"
+                        loading="lazy"
+                        alt="RownDivision"
+                        class="image-contain"
+                      />
+
+                      
+                    </figure>
+
+                    <div class="card-content">
+                      <div class="card-cat">
+                        <a href="#" class="card-cat-link">Men</a> /
+                        <a href="#" class="card-cat-link">Sports</a>
+                      </div>
+
+                      <h3 class="h3 card-title">
+                        <a href="#">Rown Division</a>
+                      </h3>
+
+                      <data class="card-price" value="150.000">Rp.130.000,-</data>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-item">
+                  <div class="product-card" tabindex="0">
+                    <figure class="card-banner">
+                      <img
+                        src="https://images.tokopedia.net/img/cache/900/VqbcmM/2022/9/22/e8ecb906-8486-422b-8437-6b84211aa3bc.jpg"
+                        width="312"
+                        height="350"
+                        loading="lazy"
+                        alt="Snow Fairy"
+                        class="image-contain"
+                      />
+
+                      
+                    </figure>
+
+                    <div class="card-content">
+                      <div class="card-cat">
+                        <a href="#" class="card-cat-link">Men</a> /
+                        <a href="#" class="card-cat-link">Women</a>
+                      </div>
+
+                      <h3 class="h3 card-title">
+                        <a href="#">Snow Fairy</a>
+                      </h3>
+
+                      <data class="card-price" value="150.000">Rp.150.000,-</data>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="product-item">
+                  <div class="product-card" tabindex="0">
+                    <figure class="card-banner">
+                      <img
+                        src="https://images.tokopedia.net/img/cache/900/VqbcmM/2022/9/19/cb47bda4-e28c-428d-9fe7-41e7aee46e01.jpg"
+                        width="312"
+                        height="350"
+                        loading="lazy"
+                        alt="Vanilla Vogue"
+                        class="image-contain"
+                      />
+
+                      
+                    </figure>
+
+                    <div class="card-content">
+                      <div class="card-cat">
+                        <a href="#" class="card-cat-link">Men</a> /
+                        <a href="#" class="card-cat-link">Women</a>
+                      </div>
+
+                      <h3 class="h3 card-title">
+                        <a href="#">Vanilla Vogue</a>
+                      </h3>
+
+                      <data class="card-price" value="170.000">Rp.170.000,-</data>
+                    </div>
+                  </div>
+                </li> 
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section special">
+          <div class="container">
+            <div
+              class="special-banner"
+              style="
+                background-image: url('https://images.tokopedia.net/img/cache/900/VqbcmM/2023/8/22/2c9b4da4-e77c-46d1-ad60-7c815fd85fe3.jpg');
+              "
+            >
+              <h2 class="h3 banner-title">Dunk Sport Edition</h2>
+
+              <a href="#" class="btn btn-link">
+                <span>Explore All</span>
+
+                <ion-icon
+                  name="arrow-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </div>
+
+            <div class="special-product">
+              <h2 class="h2 section-title">
+                <span class="text">AeroStreet Dunk Sport</span>
+
+                <span class="line"></span>
+              </h2>
+
+              <ul class="has-scrollbar">
+                <li class="product-item">
+                  <div class="product-card" tabindex="0">
+                    <figure class="card-banner">
+                      <img
+                        src="https://images.tokopedia.net/img/cache/900/VqbcmM/2021/12/6/a9c40a8e-40b7-4e1d-848c-56b279d2149e.jpg"
+                        width="312"
+                        height="350"
+                        loading="lazy"
+                        alt="Glory Glide"
+                        class="image-contain"
+                      />
+
+                      
+                    </figure>
+
+                    <div class="card-content">
+                      <div class="card-cat">
+                        <a href="#" class="card-cat-link">Men</a> /
+                        <a href="#" class="card-cat-link">Sports</a>
+                      </div>
+
+                      <h3 class="h3 card-title">
+                        <a href="#">Glory Glide</a>
+                      </h3>
+
+                      <data class="card-price" value="165.000">Rp.165.000,-</data>
+                    </div>
+                  </div>
+                </li>
+                <li class="product-item">
+                  <div class="product-card" tabindex="0">
+                    <figure class="card-banner">
+                      <img
+                        src="https://images.tokopedia.net/img/cache/900/VqbcmM/2022/4/26/00b81224-2367-4361-9f11-b72b42223c0a.jpg"
+                        width="312"
+                        height="350"
+                        loading="lazy"
+                        alt="Graphite Grip"
+                        class="image-contain"
+                      />
+
+                      
+                    </figure>
+
+                    <div class="card-content">
+                      <div class="card-cat">
+                        <a href="#" class="card-cat-link">Men</a> /
+                        <a href="#" class="card-cat-link">Women</a>
+                      </div>
+
+                      <h3 class="h3 card-title">
+                        <a href="#">Graphite Grip</a>
+                      </h3>
+
+                      <data class="card-price" value="160.000">Rp.160.000,-</data>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="product-item">
+                  <div class="product-card" tabindex="0">
+                    <figure class="card-banner">
+                      <img
+                        src="https://images.tokopedia.net/img/cache/900/VqbcmM/2022/6/7/4cf2eefd-75b6-4dd4-bbdb-65d301426db0.jpg"
+                        width="312"
+                        height="350"
+                        loading="lazy"
+                        alt="Crimson Courage"
+                        class="image-contain"
+                      />
+
+                      
+                    </figure>
+
+                    <div class="card-content">
+                      <div class="card-cat">
+                        <a href="#" class="card-cat-link">Men</a> /
+                        <a href="#" class="card-cat-link">Women</a>
+                      </div>
+
+                      <h3 class="h3 card-title">
+                        <a href="#">Crimson Courage</a>
+                      </h3>
+
+                      <data class="card-price" value="170.000">Rp.170.000,-</data>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section service">
+          <div class="container">
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-1.png"
+                      width="53"
+                      height="28"
+                      loading="lazy"
+                      alt="Service icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Free Shiping</h3>
+
+                    <p class="card-text">Semua produk AeroStreet</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-2.png"
+                      width="43"
+                      height="35"
+                      loading="lazy"
+                      alt="Service icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Quick Payment</h3>
+
+                    <p class="card-text">Pembayaran 100% aman</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-3.png"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Service icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">Free Returns</h3>
+
+                    <p class="card-text">Uang kembali dalam 7 hari</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-4.png"
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                      alt="Service icon"
+                    />
+                  </div>
+
+                  <div>
+                    <h3 class="h4 card-title">24/7 Support</h3>
+
+                    <p class="card-text">Pelayanan cepat dan tepat</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer" id="footer">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/7/76/Logo_Aerostreet.png"
+                width="100"
+                alt="Aero logo"
+              />
+            </a>
+
+            <ul class="social-list">
+              <li>
+                <a href="https://shopee.co.id/aerostreet?page=0&shopCollection=246219931" class="social-link">
+                  <ion-icon name="bag-handle-outline"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.tiktok.com/@aerostreet" class="social-link">
+                  <ion-icon name="logo-tiktok"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/aerostreet/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-link-box">
+            <ul class="footer-list">
+              <li>
+                <p class="footer-list-title">Contact Us</p>
+              </li>
+
+              <li>
+                <address class="footer-link">
+                  <ion-icon name="location"></ion-icon>
+
+                <a href="https://maps.app.goo.gl/d3N3R1dvEe9bzw6w9" class="footer-link">
+                    <span class="footer-link-text">
+                        Jl. Sultan Alauddin No.259, Kec. Rappocini, Kota Makassar, Sulawesi Selatan 90221
+                    </span>
+                </a>
+                </address>
+              </li>
+
+              <li>
+                 <a href="https://wa.me/6289508528043" class="footer-link">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    <span class="footer-link-text">
+                        +62 895 0 852 804 3
+                    </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="mailto:aerostreet@help.com" class="footer-link">
+                  <ion-icon name="mail"></ion-icon>
+
+                  <span class="footer-link-text">aerostreet@help.com</span>
+                </a>
+              </li>
+            </ul>
+          
+            <div class="footer-list">
+              <p class="footer-list-title">Opening Time</p>
+
+              <table class="footer-table">
+                <tbody>
+                  <tr class="table-row">
+                    <th class="table-head" scope="row">Monday-Friday :</th>
+                    <td class="table-data">08.00 - 22.00 WITA</td>
+                  </tr>
+
+                  <tr class="table-row">
+                    <th class="table-head" scope="row">Saturday :</th>
+                    <td class="table-data">08.00 - 17.00 WITA</td>
+                  </tr>
+
+                  <tr class="table-row">
+                    <th class="table-head" scope="row">Sunday :</th>
+                    <td class="table-data">Closed</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2024
+            <a href="#" class="copyright-link"
+              >TIM 6 - 2C Informatika - Dasar Pemrograman Web.</a
+            >
+            Universitas Muhammadiyah Makassar.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+      <script>
+        document.getElementById('signUpBtn').addEventListener('click', function() {
+            window.location.href = 'signup.html';
+        });
+        
+        document.getElementById('profileBtn').addEventListener('click', function() {
+            window.location.href = 'profile.html';
+        });
+    </script>
+  </body>
+  
+</html>

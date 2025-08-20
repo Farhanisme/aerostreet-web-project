@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <script>
+        function loadData() {
+            const name = localStorage.getItem('name');
+            const email = localStorage.getItem('email');
+            if (name && email) {
+                document.getElementById('name').textContent = name;
+                document.getElementById('email').textContent = email;
+            } else {
+                document.getElementById('profile').textContent = 'No data available.';
+            }
+        }
+
+        function clearData() {
+            localStorage.removeItem('name');
+            localStorage.removeItem('email');
+            alert('Data has been cleared!');
+            document.getElementById('name').textContent = '';
+            document.getElementById('email').textContent = '';
+            document.getElementById('profile').textContent = 'No data available.';
+        }
+
+    </script>
+</head>
+<body onload="loadData()" class="page">
+    <div class="form-container">
+        <h2>Account</h2>
+        <div id="profile">
+            <p>Name: <span id="name"></span></p>
+            <p>Email: <span id="email"></span></p>
+        </div>
+        <button onclick="window.location.href = 'index.html';">Go to Main Page</button>
+        <a href="signup.html">Sign Up</a>
+        <a onclick="clearData()">Reset Data</a>
+
+    </div>
+</body>
+</html>
