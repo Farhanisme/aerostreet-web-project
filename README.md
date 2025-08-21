@@ -28,7 +28,8 @@ This project is a simple online store website for AeroStreet sneakers. This webs
 │   └── style.css
 ├── index.html
 ├── profile.html
-└── signup.html```
+└── signup.html
+```
 
 ## Contributor
 
