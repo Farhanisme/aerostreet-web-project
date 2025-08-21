@@ -21,14 +21,14 @@ This project is a simple online store website for AeroStreet sneakers. This webs
 
 ## Project Structure
 
-project/
+```project/
 ├── assets/
 │   └── images/
 ├── css/
 │   └── style.css
 ├── index.html
 ├── profile.html
-└── signup.html
+└── signup.html```
 
 ## Contributor
 
